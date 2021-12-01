@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: 1.jpg;
+    background-image: linear-gradient(to right, #ff000000, rgba(255,0,0,1));
+    background-image: linear-gradient(to right, #ffb347, #2a0845);
+}
+
+.nav-item{
+    margin-left: 270px;
+    background-color: #64897d;
+    color: white;
+    border-color: white;
+    font-weight: bolder;
+}
+
+.nav-item:hover{
+    background-color: white;
+}
+
+.d-flex{
+    color: white;
+}
+
+th, tr{
+    color: white;
+    font-weight: 800;
+}
