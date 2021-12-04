@@ -11,8 +11,9 @@ export class SharedService {
 //readonly APIUrl="http://localhost:51502/api/values/Department";
 // readonly PhotoUrl = "http://localhost:51502/Photos";
 
+  readonly APIUrl="https://webapplication220211204225416.azurewebsites.net/api";
 // readonly APIUrl="https://webapplication220211204225416.azurewebsites.net/api/department";
-  readonly APIUrl="https://webapplication220211204225416.azurewebsites.net/api/employee";
+ // readonly APIUrl="https://webapplication220211204225416.azurewebsites.net/api/employee";
 readonly PhotoUrl = "http://sreyash-001-site1.itempurl.com/Photos";
 
   constructor(private http:HttpClient) { }
